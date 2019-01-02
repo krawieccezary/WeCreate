@@ -1,5 +1,5 @@
 # WeCreate
-PSD to HTML Website with:
+PSD to HTML Responsive Website with:
 
 HTML5 <br>
 CSS3 <br>
