@@ -281,13 +281,17 @@ section.content {
    padding: 0;
 }
 
+.parallax img {
+   display: none;
+}
+
 
 /* SECTION CONTENT-3 */
 .content-3 .number {
    left: -20px;
 }
 
-#section-3 .content-1-3 {
+#mission .content-1-3 {
    padding-bottom: 30px;
    margin-bottom: 0;
 }

@@ -7,3 +7,25 @@ function openMenuRWD() {
 }
 
 burger.addEventListener('click', openMenuRWD);
+
+
+
+$(function(){
+
+
+   // SCROLL TO
+   
+   function scrollTo(){
+         var $div = $(this.hash);
+         var $divTop = $div.offset().top;
+
+         $(burger).removeClass('active-burger');
+         $(nav).removeClass('open-RWD');
+         $('html, body').animate({
+            scrollTop: $divTop
+         }, 800);
+
+      };
+
+   $('.nav a').on('click', scrollTo);
+}); // jQuery END
